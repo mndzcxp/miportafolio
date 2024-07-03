@@ -12,7 +12,7 @@ Este proyecto es un _**portafolio de presentación**_, creado puramente con HTML
 + **Google Icons:** Para íconos personalizados.
 
 ### 👁️ Vista previa del proyecto
-![Demo](/imagenes/vistaprevia.png)
+![Demo](/images/vistaprevia.png)
 🔗 [link de vista previa](https://paola-mendez-portafolio.vercel.app/)
 
 #### 👩‍💻 Contacto
