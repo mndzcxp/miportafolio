@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <!--Animaciones CSS CDN --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Paola Mendez portafolio</title>
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACIÓN-->
+    <header>
+        <nav>
+            <h1>Paola Méndez</h1>
+            <ul>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <!--Este servirá cuando este en versión de movil, no se verá en versión web-->
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN HERO-->
+     <section class="hero" id="about">
+        <img src="images/paolamendez.JPG" alt="woman computer" class="hero-img" loading="lazy">
+
+        <div class="bio animate__animated animate__shakeX"> <!-- Sirve para poner una animación tipo "sacudida"-->
+            <h1 class="bio-title">Sobre mí</h1>
+
+            <p class="bio-text">Soy Paola Méndez, estudiante de la licenciatura de Médico Cirujano, diseñadora de páginas web en mis tiempos libres y una gran coleccionista de pasatiempos.</p>
+        </div>
+     </section>
+
+     <!-- SECCIÓN ABOUT ME-->
+     <section class="more-about">
+        <h2>Más sobre mí</h2>
+
+        <p>Actualmente cursa el tercer semestre de la licenciatura de Médico Cirujano en la Universidad Autónoma de Yucatán, además que toma cursos de distintas áreas como lo son: Technolochicas, Critical Aid, entre otros.</p>
+        <p>Asimismo, es una pequeña emprendedora online con su tiendita de tejidos y amigurumis "Solcito Store" y en su futuro proyecto "Lunita Store", una tiendita de bolsos, ambos proyectos 100% hecho a mano y con mucha dedicación.</p>
+        <p>En lo personal, es una persona creativa, perfeccionista y perseverante en todo lo que realiza lo que le ayuda a seguir avanzando.</p>
+     </section>
+
+     <!-- SECCIÓN SKILLS-->
+     <section class="skills" id="skills">
+        <h2 class="skill-header">Mis habilidades</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-html5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+     </section>
+
+     <!--PROJECTS-->
+     <section class="projects" id="projects">
+        <h2 class="projects-title">Algunos de mis proyectos recientes</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/proyecto1.png" alt="Pinterest-clon" loading="lazy" class="project-pic">
+                <h3 class="project-title">Clon de Pinterest</h3>
+                <p class="project-details">Este proyecto es una copia de la interfaz de Pinterest, creado puramente con HTML5 y CSS3. Se enfoca en replicar la aparencia visual de dicha plataforma ofreciendo una experiencia de navegación similar con funcionalidades básicas.</p>
+                <a href="https://iniciodepinterest-omega.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/proyecto2.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Mi blog. Versión 1</h3>
+                <p class="project-details">Este proyecto es un diseño simple sobre un blog. Se enfoca en el uso de las herramientas básicas del HTML5, se enlaza a distintas secciones como lo son Pasatiempos, Mis Gustos, entre otros, casa una de estas páginas tiene un diseño sencillo.</p>
+                <a href="https://paoblog-paola-mendezs-projects.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/proyecto3.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Horario Escolar</h3>
+                <p class="project-details">Este proyecto es un diseño de un horario de clases básico, creado puramente con HTML5. Se enfoca en poder acceder a la información de cada materia de este haciendo un solo clic, tiene un diseño simple y funcionalidades básicas y principiantes.</p>
+                <a href="https://horariodesign.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+            </div>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-workinprogress project-card">
+                <img src="images/workinprogress.gif" alt="work-in-progress" loading="lazy" class="project-pic">
+            </div>
+        </div>
+     </section>
+
+     <!--Redes sociales-->
+     <div class="socials">
+        <a href="https://linkedin.com/in/paola-m%C3%A9ndez-b9530a313" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+        <a href="https://wa.me/529999025479" target="_blank"><img src="icons/whatsapp.png" alt="WhatsApp" loading="lazy" class="socicon"></a>
+
+        <a href="https://github.com/mndzcxp" target="_blank"><img src="icons/github.png" alt="GitHub" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.instagram.com/mndzcxp/" target="_blank"><img src="icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.facebook.com/paolamendez1212" target="_blank"><img src="icons/facebook.png" alt="Facebook" loading="lazy" class="socicon"></a>
+     </div>
+
+     <!--Scroll button-->
+     <i class="scroll-up" id="scroll-up">
+        <img src="icons/icons8-up-arrow.gif" class="socicon up-arrow">
+     </i>
+
+     <!--Footer-->
+     <footer>
+        <p>Build with love by <a href="" target="_blank">Paola Méndez</a></p>
+     </footer>
+
+
+     <!--JavaScript link-->
+     <script src="app.js"></script>
+
+     <!-- Ion icons scripts -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
